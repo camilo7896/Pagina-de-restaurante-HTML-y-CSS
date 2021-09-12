@@ -1,0 +1,207 @@
+* {
+    margin: 0%;
+}
+
+
+/*Bloque total*/
+
+.caja {
+    background-image: url(https://i.pinimg.com/222x/28/48/55/2848557b2197103954dc5e5429b00c27.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/**************** Contenedor ***************/
+
+.container {
+    background-size: 100%;
+    margin: 1rem;
+    height: auto;
+}
+
+.titulo-principal {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/****************Bloque de menu************/
+
+.menu {
+    background-color: rgb(240, 230, 230);
+    margin-top: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    box-shadow: 1px 5px 8px 1px rgb(0, 0, 0);
+}
+
+.caja-menu {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+
+button {
+    padding: 2px 25px 2px 25px;
+    font-size: auto;
+    background: chartreuse;
+    box-shadow: 1px 5px 8px 1px rgb(0, 0, 0);
+}
+
+button:hover {
+    background-color: rgb(9, 226, 255);
+}
+
+
+/*********************  bloque de imagen (Encabezado)  **************/
+
+.header {
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caja-header {
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.img-header {
+    background-image: url(https://thumbs.dreamstime.com/b/entrega-de-platos-en-el-restaurante-comidas-cenas-cajas-vista-superior-espacio-libre-para-texto-estilo-r%C3%BAstico-164645798.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    opacity: 0.8;
+    background-attachment: fixed;
+}
+
+.titulo1 {
+    width: auto;
+    font-size: 50%;
+    background-color: yellow;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 8px 12px 1px rgb(0, 0, 0);
+}
+
+.precio1 {
+    background-color: yellow;
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 5px 8px 1px rgb(0, 0, 0);
+}
+
+
+/***********       bloque de Productos ************/
+
+.productos {
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgb(82, 82, 82);
+}
+
+.caja-de-productos {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+}
+
+.producto {
+    padding: 0.5rem;
+    height: auto;
+    margin: 15px;
+    box-shadow: 2px 2px 2px 1px rgb(82, 82, 82);
+}
+
+.producto img {
+    width: 100px;
+}
+
+
+/*********     Bloque de taco ***************/
+
+.taco {
+    background-image: url(data:image/jpeg;base64,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);
+    background-attachment: fixed;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    text-align: center;
+    display: flex;
+}
+
+.text-taco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja-texto {
+    padding-top: 10%;
+}
+
+.h4-text {
+    margin-bottom: 0.5rem;
+    font-size: 30px;
+}
+
+.img-taco {
+    display: flex;
+    align-items: center;
+}
+
+.img-taco img {
+    width: 100%;
+}
+
+.btn-text {
+    margin-top: 1rem;
+    background-color: yellow;
+}
+
+
+/************    bloque de imagenes instagram *************/
+
+.img-instagram {
+    margin-top: 1rem;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.caja-img {
+    margin: 0.5rem;
+    box-shadow: 2px 2px 8px 1px rgb(82, 82, 82);
+}
+
+.caja-img img {
+    width: auto;
+}
+
+.subtitulo {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    margin: 2rem;
+}
